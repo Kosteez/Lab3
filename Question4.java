@@ -1,7 +1,7 @@
 import java.util.*;
 import java.text.DecimalFormat;
 
-public class Question3 {
+public class Question4 {
 private static DecimalFormat df2 = new DecimalFormat("#.##");
 private static DecimalFormat df3 = new DecimalFormat("#");
 
