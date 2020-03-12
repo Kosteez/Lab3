@@ -28,6 +28,7 @@ private static DecimalFormat df3 = new DecimalFormat("#");
 		System.out.println("Enter any amount of miles: ");
 		milesKilometers = sc.nextDouble();
 		answer = milesKilometers * 1.609;
+		System.out.println();
 		System.out.println(df3.format(milesKilometers) + " miles is equal to " + df3.format(answer) + " kilometers.");
 
 	} else if (choice == 2) {
@@ -35,6 +36,7 @@ private static DecimalFormat df3 = new DecimalFormat("#");
 		System.out.println("Enter a weight in pounds: ");
 		poundsKg = sc.nextDouble();
 		answer = poundsKg / 2.205;
+		System.out.println();
 		System.out.println(df3.format(poundsKg) + " pounds is equal to " + df3.format(answer) + " kilograms.");
 
 	} else if (choice == 3) {
@@ -42,6 +44,7 @@ private static DecimalFormat df3 = new DecimalFormat("#");
 		System.out.println("Enter a volume in gallons: ");
 		gallonLitre = sc.nextDouble();
 		answer = gallonLitre * 3.785;
+		System.out.println();
 		System.out.println(df2.format(gallonLitre) + " gallons is equal to " + df2.format(answer) + " litres.");
 
 	} else if (choice == 4) {
@@ -49,6 +52,7 @@ private static DecimalFormat df3 = new DecimalFormat("#");
 		System.out.println("Enter a temperature in farenheit: ");
 		farenheitCelsius = sc.nextDouble();
 		answer = (farenheitCelsius - 32) * (5 / 9);
+		System.out.println();
 		System.out.println(df3.format(farenheitCelsius) + " degrees farenheit is equal to " + df3.format(answer) + " degrees celsius.");
 
 	} else if (choice == 5) {
@@ -56,6 +60,7 @@ private static DecimalFormat df3 = new DecimalFormat("#");
 		System.out.println("Enter an amount of money in US currency: ");
 		usCad = sc.nextDouble();
 		answer = usCad * 1.34;
+		System.out.println();
 		System.out.println(df2.format(usCad) + " is equal to: " + df2.format(answer) + " CAD.");
 
 	} else {
